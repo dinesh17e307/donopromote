@@ -1,0 +1,377 @@
+.listview {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+
+}
+
+.option {
+    display: flex;
+    gap: 5px;
+
+    &::after {
+        content: '|';
+        color: aqua;
+    }
+
+    &:hover {
+        color: #2196f3;
+        font-size: large;
+    }
+}
+
+.navbar {
+    background-color: #880e4f;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+    font-family: cursive;
+    color: white;
+    z-index: 9999;
+}
+
+.newsletter {
+    margin-top: 15px !important;
+    width: 200px !important;
+    height: 50px !important;
+    color: #880e4f !important;
+    background-color: white !important;
+    border-radius: 10px;
+
+}
+
+.textField {
+    border-radius: 10px !important;
+    background-color: white !important;
+    color: #880e4f !important;
+    font-family: normal;
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+
+.leadcard {
+    background-color: #00897b !important;
+    color: white !important;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 99999;
+
+}
+
+.actionButton {
+    color: white !important;
+    font-family: cursive !important;
+}
+
+.productCardButton {
+    color: white !important;
+    font-family: cursive !important;
+    background-color: #880e4f !important;
+    &:hover{
+        background-color: white !important;
+        color: #880e4f !important;
+        border: 1px solid #880e4f !important;
+        border-radius: 7px;
+    }
+}
+
+.leadpara {
+    font-family: cursive-bold;
+
+}
+
+.d_flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.subscribeComponentbackground {
+    padding: 15px !important;
+    background-color: #e1a7b0;
+    width: 100%;
+    border-radius: 50% 10px 40px 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+.yesimin {
+    margin-top: 15px !important;
+    width: 200px !important;
+    height: 50px !important;
+    background-color: #880e4f !important;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: heading-font;
+    font-size: 2rem;
+    color: white;
+
+    &::first-letter {
+        font-size: 3rem;
+        color: #880e4f;
+    }
+}
+
+.trendingHeading {
+    font-family: heading-font;
+    font-size: 2rem;
+    color: #e1a7b0;
+
+    &::first-letter {
+        font-size: 3rem;
+        color: #880e4f;
+    }
+}
+.trendingHeadingInvert {
+    font-family: heading-font;
+    font-size: 2rem;
+    color: #e1a7b0;
+
+    &::first-letter {
+        font-size: 3rem;
+        color: white;
+
+    }
+    &:hover{
+        color: white;
+        cursor: pointer;
+    }
+}
+.leadmodal {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+.productCard {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 10px !important;
+    border: 1px solid #880e4f;
+}
+
+.TrendingProductList {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.TrendingProductListNowarp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.HeadingComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.seeMore {
+    color: #880e4f;
+    font-family: cursive;
+    cursor: pointer;
+}
+.readMore {
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    margin-right: 10px;
+   text-align: right;
+   position: relative;
+   &::first-letter{
+    color: #880e4f;
+    font-size: 2rem;
+   }
+}
+.description {
+    width: 100%; 
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.dialogBox{
+    width:400px !important;
+    height: 500px !important;
+    overflow: hidden !important;
+    
+
+}
+.sliderImage{
+   overflow: hidden !important;
+   width: 100% !important;
+   border-radius: 10px !important;
+   cursor: pointer;
+   &:hover{
+    height: 110% !important;
+   }
+}
+.actionButtons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.dailydeals{
+    font-family: heading-font;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+
+    &::first-letter {
+        font-size: 3rem;
+        color: #880e4f;
+    }
+}
+.dailydealscontent{
+    font-family: heading-font;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+
+    &::first-letter {
+        font-size: 3rem;
+        color: #880e4f;
+    }
+    &:hover{
+        font-size: 3rem;
+    }
+}
+.dailyDealsBox{
+    background-color: #e1a7b0;
+    width: 98%;
+    height: 500px;
+    margin: 100px 40px 20px 20px !important;
+    border-radius: 1px 150px  !important;
+}
+.outerContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 15px;
+
+}
+.overEffect{
+    &:hover{
+        width: 200px;
+        cursor: pointer;
+    }
+}
+.d_flex_overflow{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    overflow: visible;
+}
+.d_flex_viewProduct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+.D_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.descriptionStyle{
+    max-width: 80%;
+    word-wrap: break-word;
+
+
+}
+.ViewCardButton {
+    color: white !important;
+    font-family: cursive !important;
+    font-size: larger;
+    background-color: #880e4f !important;
+    &:hover{
+        background-color: white !important;
+        color: #880e4f !important;
+        border: 1px solid #880e4f !important;
+        border-radius: 7px;
+    }
+}
+.image_container {
+    position: relative;
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    z-index: 10; /* Ensures the overlay is on top */
+}
+.para_text{
+    font-family: cursive !important;
+    font-size: medium;
+    font-weight: 500;
+    &::first-letter{
+        color: #880e4f;
+        font-size: 2rem;
+
+    }
+}
+.para_text_invert{
+    font-family: cursive !important;
+    font-size: medium;
+    font-weight: 500;
+    &::first-letter{
+        color: white;
+        font-size: 2rem;
+
+    }
+}
+.para_text_copy{
+    font-family: cursive !important;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.shopmore{
+    color: #880e4f;
+    font-family: cursive;
+    &:hover{
+        background-color: #880e4f;
+        color: white;
+        border: 1px solid #880e4f;
+        border-radius: 7px;
+    }
+}
+.topbrandCard{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 10px !important;
+    border: 1px solid #880e4f;
+
+}
+.socialMedia{
+    font-size: 3rem;
+    cursor: pointer;
+}

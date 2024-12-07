@@ -1,0 +1,1 @@
+export const MONGODB_URI = "mongodb+srv://dheena5880:dheena5880@donopromote.qutfa.mongodb.net/?retryWrites=true&w=majority&appName=donopromote"
